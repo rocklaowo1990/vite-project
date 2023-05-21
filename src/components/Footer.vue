@@ -6,13 +6,12 @@
     <div class="footer">
         1111
     </div>
-
 </template>
 
 <style scoped>
 .footer {
     width: 100%;
-    height: 60px;
+    height: 6rem;
     background-color: blue;
 }
 </style>

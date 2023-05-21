@@ -10,6 +10,7 @@
   color: white;
   text-decoration-line: none;
   transition: 300ms;
+  cursor: pointer;
 }
 
 .router-link:hover {
@@ -80,4 +81,40 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.second-text {
+  color: #888888;
+  font-size: 1rem;
+  display: block;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-bottom: 0.85rem;
+
+}
+
+h3:first-child {
+  margin-top: 0;
+}
+
+.prism-editor-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+
+  /* we dont use `language-` classes anymore so thats why we need to add background and text color manually */
+  background: #2d2d2d;
+  color: #ccc;
+
+  /* you must provide font-family font-size line-height. Example: */
+  font-family: Fira code, Fira Mono, Consolas, Menlo, Courier, monospace;
+  font-size: 0.85rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 2;
+  box-sizing: border-box;
 }

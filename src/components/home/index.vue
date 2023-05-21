@@ -10,10 +10,10 @@
 
 <style scoped>
 .home-body {
-    height: calc(100vh - 60px);
+    height: calc(100vh - 4rem);
     width: 100%;
-    max-width: 1000px;
+    max-width: 100rem;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 2rem;
 }
 </style>

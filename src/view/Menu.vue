@@ -29,31 +29,34 @@ const onBack = () => {
 }
 
 .header-left-text {
-    margin-left: 10px;
+    margin-left: 1rem;
     color: #409EFF;
 }
 
 .menu-header {
     width: 100%;
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     box-sizing: border-box;
 }
 
 .icon {
-    width: 24px;
-    height: 24px;
-    color: #409EFF;
+    width: 1.5rem;
+    height: 1.5rem;
     margin: 0;
 }
 
 .nav {
     width: 100%;
-    height: 60px;
-    padding-left: 20px;
-    padding-right: 20px;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     box-sizing: border-box;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 0.1rem solid rgba(255, 255, 255, 0.1);
+}
+
+.nav:last-child {
+    border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
 }
 </style>

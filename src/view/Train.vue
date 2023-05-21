@@ -9,6 +9,4 @@ import Train from '../components/train/index.vue'
     <Train></Train>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

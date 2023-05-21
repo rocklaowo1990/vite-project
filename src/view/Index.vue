@@ -9,6 +9,4 @@ import Home from '../components/home/index.vue'
     <Home></Home>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
